@@ -58,7 +58,7 @@ header {
 }
 
 .handles p{
-    font-size: 0.8rem;
+    font-size: 0.5rem;
 }
 
 .handles-list{
@@ -146,11 +146,11 @@ header {
 }
 
 .achievement span {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     font-weight: bold;
 }
 .achievement p {
-    font-size: 0.5rem;
+    font-size: 0.4rem;
 }
 
 .services-container{
@@ -253,3 +253,4 @@ header {
 
 
 }
+
