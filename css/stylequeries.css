@@ -32,7 +32,7 @@ header {
 }
 
 .hero-section {
-    height: 60vh;
+    height: 80vh;
 }
 
 .hero-images {
@@ -173,7 +173,7 @@ width: 9.5rem;
 
 .About{
     object-fit: cover;
-    height: 118vh;
+    height: 125vh;
 }
 
 .about-text{
