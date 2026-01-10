@@ -22,8 +22,8 @@ header {
 }
 
 .logo-section img {
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;  
 }
 
@@ -163,7 +163,7 @@ header {
 
 .services-container{
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     grid-template-columns:repeat(2,minmax(170px,1fr));
@@ -177,7 +177,7 @@ header {
 
 .services-container h1{
     position: absolute;
-    top: -3%;
+    top: -7%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size:1rem ;
@@ -203,7 +203,7 @@ width: 9.5rem;
     padding: 2rem 2rem;
     margin-top: 2rem;
     font-size: 0.6rem;
-    top: 18%;
+    top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
@@ -262,3 +262,4 @@ width: 9.5rem;
 
 
 }
+
