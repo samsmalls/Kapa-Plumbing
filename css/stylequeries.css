@@ -116,7 +116,7 @@ header {
     transform: translate(-50%, -50%);
     padding: 0.2rem 0.5rem;
     margin-top: 2.9rem;
-    gap: 1rem;
+    gap: 0.8rem;
 }
 
 .achievement{
@@ -131,11 +131,11 @@ header {
 }
 
 .achievement span {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     font-weight: bold;
 }
 .achievement p {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
 }
 
 .services-container{
@@ -161,10 +161,10 @@ header {
 }
 
 .service-text{
-line-height: 1rem;
-padding: 0.5rem;
-font-size: 0.5rem;
-width: 9.5rem;
+    line-height: 1rem;
+    padding: 0.5rem;
+    font-size: 0.5rem;
+    width: 9.5rem;
 }
 
 .service-text a{
@@ -173,11 +173,11 @@ width: 9.5rem;
 
 .About{
     object-fit: cover;
-    height: 125vh;
+    height: 145vh;
 }
 
 .about-text{
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
     margin-top: 2rem;
     font-size: 0.8rem;
     top: 18%;
