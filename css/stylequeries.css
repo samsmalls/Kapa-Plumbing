@@ -61,6 +61,21 @@ header {
     font-size: 0.8rem;
 }
 
+.handles-list{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 13%;
+    left: 65%;
+    transform: translate(-50%, -50%);  
+}
+
+.handles-list a{
+    padding: 1rem;
+    color: greenyellow;
+    font-size: 1rem;
+    
+
 .hero-text{
     position: absolute;
     padding: 3rem 2rem;
@@ -234,6 +249,7 @@ header {
     font-size: 1.5rem;
     margin-top: 1rem;
 }
+
 
 
 }
