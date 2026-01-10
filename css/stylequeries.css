@@ -163,7 +163,7 @@ header {
 
 .services-container{
     position: absolute;
-    top: 70%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     grid-template-columns:repeat(2,minmax(170px,1fr));
@@ -177,7 +177,7 @@ header {
 
 .services-container h1{
     position: absolute;
-    top: -7%;
+    top: -10%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size:1rem ;
@@ -203,7 +203,7 @@ width: 9.5rem;
     padding: 2rem 2rem;
     margin-top: 2rem;
     font-size: 0.6rem;
-    top: 12%;
+    top: 16%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
@@ -262,4 +262,5 @@ width: 9.5rem;
 
 
 }
+
 
