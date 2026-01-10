@@ -22,8 +22,8 @@ header {
 }
 
 .logo-section img {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;  
 }
 
@@ -44,8 +44,8 @@ header {
 }
 
 .hero-section img {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     object-fit: cover;
     padding: 0.1rem;
 }
@@ -99,7 +99,7 @@ header {
 
 .hero-contact{
     position: absolute;
-    top: 54%;
+    top: 56%;
     left: 35%;
     transform: translate(-50%, -50%);
     padding: 0.2rem 0.5rem;
@@ -114,7 +114,7 @@ header {
 
 .hero-contact-why{
     position: absolute;
-    top: 54%;
+    top: 56%;
     left: 63%;
     transform: translate(-50%, -50%);
     padding: 0.2rem 0.5rem;
@@ -142,14 +142,14 @@ header {
     transform: translate(-50%, -50%);
     padding: 0.4rem 0.8rem;
     margin-top: 2.9rem;
-    gap: 1rem;
+    gap: 0.8rem;
 }
 
 .achievement{
     background-color: #ffffff;
-    padding: 0.5rem 0.9rem;
+    padding: 0.4rem 0.7rem;
     border-radius: 15px;
-    width: 7rem;
+    width: 6.7rem;
 }
 
 
@@ -163,7 +163,7 @@ header {
 
 .services-container{
     position: absolute;
-    top: 65%;
+    top: 63%;
     left: 50%;
     transform: translate(-50%, -50%);
     grid-template-columns:repeat(2,minmax(170px,1fr));
@@ -177,7 +177,7 @@ header {
 
 .services-container h1{
     position: absolute;
-    top: -10%;
+    top: -8%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size:1rem ;
@@ -262,5 +262,6 @@ width: 9.5rem;
 
 
 }
+
 
 
