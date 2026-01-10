@@ -1,0 +1,258 @@
+@media(max-width:480px){
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0.5rem 0.6rem ;
+   max-width: 1400px;
+   margin: 1rem 1rem;
+   border-radius: 20px;
+   backdrop-filter: 10px;
+}
+
+.nav-menu ul {
+    gap: 0.5rem;   
+}
+
+.logo-section img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;  
+}
+
+.nav-menu ul li a{
+    font-size: 0.5rem;
+}
+
+.hero-section {
+    height: 60vh;
+}
+
+.hero-images {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    gap: 3rem;  
+}
+
+.hero-section img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    padding: 0.1rem;
+}
+
+.handles{
+    position: absolute;
+    top: 9%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.handles p{
+    font-size: 0.8rem;
+}
+
+.handles-list{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 13%;
+    left: 65%;
+    transform: translate(-50%, -50%);  
+}
+
+.handles-list a{
+    padding: 1rem;
+    color: greenyellow;
+    font-size: 1rem;
+    gap: 0.8rem;
+}
+
+.hero-text{
+    position: absolute;
+    padding: 3rem 2rem;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    width: 90%;
+}
+
+.hero-text h1 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 0.8rem;
+    line-height: 1.6;
+}
+
+.hero-contact{
+    position: absolute;
+    top: 54%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    padding: 0.2rem 0.5rem;
+    margin-top: 2.9rem;
+}
+
+.hero-contact a{
+    font-size: 0.6rem;
+    gap: 0.5rem;
+}
+
+.hero-contact-why{
+    position: absolute;
+    top: 54%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    padding: 0.2rem 0.5rem;
+    margin-top: 2.9rem;
+}
+
+.hero-contact-why a{
+    font-size: 0.6rem;
+    gap: 0.4rem;
+}
+
+
+.hero-contact-why a{
+    padding: 0.2rem 0.3rem;
+}
+
+.achievements-container{
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.2rem 0.5rem;
+    margin-top: 2.9rem;
+    gap: 1rem;
+}
+
+.achievement{
+    background-color: #ffffff;
+    padding: 0.5rem 0.9rem;
+    border-radius: 15px;
+    width: 7rem;
+}
+
+
+.achievement span {
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+.achievement p {
+    font-size: 0.7rem;
+}
+
+.services-container{
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    grid-template-columns:repeat(2,minmax(170px,1fr));
+    padding: 0.2rem 0.5rem;
+    margin-top: 2.9rem;
+    gap: 0.9rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.services-container h1{
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:1rem ;
+}
+
+.service-text{
+line-height: 1rem;
+padding: 0.5rem;
+font-size: 0.5rem;
+width: 9.5rem;
+}
+
+.service-text a{
+    font-size: 0.4rem;
+}
+
+.About{
+    object-fit: cover;
+    height: 118vh;
+}
+
+.about-text{
+    padding: 2rem 2rem;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+
+.why-choose-us-container{
+    padding: 1rem 1rem;
+}
+
+.why-choose-us-text h1{
+    color: black;
+    margin-bottom: 0.8rem;
+}
+
+.choose-us-text{
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+
+.choose-us-text p{
+    color: black;
+    font-weight: 450;
+    line-height: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.keeping-uptodate{
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.keeping-uptodate p{
+    line-height: 1.8rem;
+    font-weight: 450;
+    font-size: 0.8rem;
+}
+
+.biodigester-container {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/WhatsApp\ Image\ 2026-01-02\ at\ 3.20.46\ PM\ \(1\).jpeg) center/cover no-repeat;
+    max-width: 100%;
+}
+
+.biodigester-text{
+    padding: 1rem;
+    font-size: 0.8rem;
+    font-weight: 450;
+}
+
+.biodigester-container h1{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+
+}
