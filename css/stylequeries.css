@@ -177,7 +177,7 @@ header {
 
 .services-container h1{
     position: absolute;
-    top: -5%;
+    top: -4%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size:1rem ;
@@ -262,6 +262,7 @@ width: 9.5rem;
 
 
 }
+
 
 
 
