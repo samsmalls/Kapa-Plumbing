@@ -396,6 +396,11 @@ header {
     padding: 0.2rem 0.3rem;
 }
 
+.hero-contact a,
+.hero-contact-why a{
+    font-size:0.4rem;
+    padding:0.5rem;
+
 .achievements-container{
     position: absolute;
     top: 72%;
@@ -443,7 +448,7 @@ header {
 .services-container{
     position: absolute;
     top: 62%;
-    left: 50%;
+    left: 48%;
     transform: translate(-50%, -50%);
     grid-template-columns:repeat(3,minmax(160px,1fr));
     padding: 0.2rem 0.5rem;
@@ -468,6 +473,7 @@ header {
     padding: 0.5rem;
     font-size: 0.8rem;
     width: 10.5rem;
+    margin-left:2%;
 }
 
 .service-text a{
