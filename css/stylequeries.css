@@ -130,6 +130,11 @@ header {
     padding: 0.2rem 0.5rem;
 }
 
+.hero-contact a,
+.hero-contact-why a{
+    font-size:0.4rem;
+    padding:0.5rem;
+
 .achievements-container{
     position: absolute;
     top: 72%;
